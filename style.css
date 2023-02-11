@@ -65,8 +65,18 @@ ul {
   color: #D8BD85;
 }
 
-#card-header {
-  background-color: #2A4B89;
+.background {
+  background:url('images/background-op30-beige.png');
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color:#2A4B89;
+  background-size: 100%;
+}
+
+.card-header {
   border-radius: 4px;
   width: 72%;
   padding: 20px;
